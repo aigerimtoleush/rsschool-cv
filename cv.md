@@ -3,7 +3,7 @@
 
 **Profile**  
   Graduate student of Information Sciences, has been an intern "Evereest Technology" LLP
-  as a HTML/CSS coder, wants to be front-end developer, ready to learn new things.   
+  as a HTML/CSS coder, wants to be front-end developer, ready for challenges to learn something new.   
 
 **Skills**  
   * **Programming languages:** C#, Python basics, Javascript basics
