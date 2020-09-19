@@ -1,0 +1,111 @@
+* { box-sizing: border-box; }
+
+html,body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+}
+
+/* Wrapping all elements in page */
+.content {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Font-family for header texts */
+.header-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+/* Wrapping element for img, profile and contact info*/
+aside {
+  flex-grow: 1;
+  width: 30%;
+  padding: 4%;  
+  color: #f6f5f5;
+  background-color: #4e89ae;
+}
+
+.img-rounded {
+  display: block;
+  margin: auto;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+aside h4 {
+  margin-top: 3rem ;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+ul,
+ul a {
+  padding: 0;
+  color:  #f6f5f5;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+ul li { margin: .4rem 0; }
+
+ul a:hover { color: #ffa372; }
+
+/* Wrapping element for name and sections */
+main {
+  flex-grow: 1;
+  width: 70%;
+  padding: 4%;
+  background-color: #f6f5f5;
+}
+
+main h3 {
+  color: #f6f5f5;
+  text-transform: uppercase;
+}
+
+main ul, 
+main h4,
+main p {
+  margin: .4rem 0;
+  color: #43658b;
+}
+
+.dates{
+  color: #ffa372;
+  margin: .4rem auto;
+  font-size: .85rem;
+}
+
+.name {
+  padding: 3rem 0;
+  height: 180px;
+  font-family: 'Verdana', sans-serif;
+  text-align: center;
+}
+
+.name h1, 
+.name h4 {
+  margin: 0 0 .8rem;
+  color: #ffa372;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+section {
+  padding: 0 1.25rem;
+  margin-top: 3rem;
+} 
+
+section header {
+  padding: 0 1.25rem;
+  margin: 0 -1.25rem;
+  background-color: #4e89ae;
+}
+
+.info { margin-top: 1.25rem; }
